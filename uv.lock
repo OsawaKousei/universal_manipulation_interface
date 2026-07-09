@@ -2896,7 +2896,7 @@ requires-dist = [
     { name = "ur-rtde", specifier = ">=1.6.3" },
     { name = "v4l2py", specifier = ">=3.0.0" },
     { name = "wandb", specifier = ">=0.26.1" },
-    { name = "zarr", specifier = ">=2.18.2" },
+    { name = "zarr", specifier = "==2.16.*" },
 ]
 
 [[package]]
@@ -3062,17 +3062,17 @@ wheels = [
 
 [[package]]
 name = "zarr"
-version = "2.18.2"
+version = "2.16.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "asciitree" },
-    { name = "fasteners", marker = "sys_platform != 'emscripten'" },
+    { name = "fasteners" },
     { name = "numcodecs" },
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b3/00/ac5c518ff1c1b1cc87a62f86ad9d19c647c19d969a91faa40d3b6342ccaa/zarr-2.18.2.tar.gz", hash = "sha256:9bb393b8a0a38fb121dbb913b047d75db28de9890f6d644a217a73cf4ae74f47", size = 3603055, upload-time = "2024-05-26T19:23:24.131Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/76/70/c31a48c6591ed7ff76fdefee7495352a9072546a89362551cb0cc6816798/zarr-2.16.1.tar.gz", hash = "sha256:4276cf4b4a653431042cd53ff2282bc4d292a6842411e88529964504fb073286", size = 3597771, upload-time = "2023-08-18T14:30:00.439Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/bd/8d881d8ca6d80fcb8da2b2f94f8855384daf649499ddfba78ffd1ee2caa3/zarr-2.18.2-py3-none-any.whl", hash = "sha256:a638754902f97efa99b406083fdc807a0e2ccf12a949117389d2a4ba9b05df38", size = 210228, upload-time = "2024-05-26T19:23:22.171Z" },
+    { url = "https://files.pythonhosted.org/packages/ba/55/0f5ec28561a1698ac5c11edc5724f8c6d48d01baecf740ffd62107d95e7f/zarr-2.16.1-py3-none-any.whl", hash = "sha256:de4882433ccb5b42cc1ec9872b95e64ca3a13581424666b28ed265ad76c7056f", size = 206866, upload-time = "2023-08-18T14:29:58.184Z" },
 ]
 
 [[package]]
